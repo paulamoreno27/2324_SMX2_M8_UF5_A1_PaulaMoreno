@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-image: url(./img/header_background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 70vh;
+}
+
+#texto1{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+section {
+    max-width: 600px; 
+    padding: 0 20px; 
+    margin: 0 auto; 
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        max-width: 100%; 
+    }
+}
