@@ -1,36 +1,70 @@
-*{
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-.encabezado{
-    background-image: url(./img/header_background.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 70vh;
-}
-
-#texto1{
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
+ 
 section {
-    max-width: 600px; 
-    padding: 0 20px; 
-    margin: 0 auto; 
+    max-width: 600px;
     width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
 }
-
+ 
+#prueba1, #prueba2 {
+    display: none;
+}
+ 
 @media only screen and (max-width: 600px) {
     section {
-        max-width: 100%; 
+        max-width: 100%;
     }
+ 
+    #prueba1, #prueba2 {
+        display: block;
+    }
+}
+ 
+a {
+    color: green;
+}
+ 
+p {
+    text-align: justify;
+}
+ 
+.personajesimg{
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
+ 
+.bloque img {
+    margin-top: 35px;
+    margin: 5px;
+}
+ 
+ /*{
+     height: 600px;
+    background-image: url(../IMG/header_background.jpeg);
+}*/
+ 
+.contenedor {
+    position: relative;
+    text-align: center; /* Para centrar el texto */
+}
+ 
+.cabecera {
+    width: 100%; /* Ajustar el tamaño de la imagen según sea necesario */
+    height: 600px; /* Mantener la proporción de la imagen */
+}
+ 
+.textocabe{
+    position: absolute;
+    top: 50%; /* Posición verticalmente centrada */
+    left: 50%; /* Posición horizontalmente centrada */
+    transform: translate(-50%, -50%); /* Centrar el texto exactamente en el centro */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
 }
