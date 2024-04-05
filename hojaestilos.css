@@ -1,6 +1,14 @@
+
+.league-spartan {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
  
 section {
@@ -10,7 +18,7 @@ section {
     margin: 0 auto;
 }
  
-#prueba1, #prueba2 {
+#parte1, #parte2 {
     display: none;
 }
  
@@ -19,20 +27,21 @@ section {
         max-width: 100%;
     }
  
-    #prueba1, #prueba2 {
+    #parte1, #parte2 {
         display: block;
     }
 }
  
 a {
-    color: green;
+    color: red;
+    text-decoration: none;
 }
  
 p {
     text-align: justify;
 }
  
-.personajesimg{
+.personajes{
     width: 80%;
     height: 300px;
     text-align: center;
@@ -43,28 +52,24 @@ p {
     margin: 5px;
 }
  
- /*{
-     height: 600px;
-    background-image: url(../IMG/header_background.jpeg);
-}*/
  
 .contenedor {
     position: relative;
-    text-align: center; /* Para centrar el texto */
+    text-align: center; /* Centrar el texto */
 }
  
 .cabecera {
-    width: 100%; /* Ajustar el tamaño de la imagen según sea necesario */
-    height: 600px; /* Mantener la proporción de la imagen */
+    width: 100%; /* Ajustar tamaño de la imagen, el % lo escogemos nosotros */
+    height: 600px; /* Proporción de la imagen */
 }
  
 .textocabe{
     position: absolute;
-    top: 50%; /* Posición verticalmente centrada */
-    left: 50%; /* Posición horizontalmente centrada */
-    transform: translate(-50%, -50%); /* Centrar el texto exactamente en el centro */
-    color: white; /* Color del texto */
-    font-size: 24px; /* Tamaño del texto */
-    font-weight: bold; /* Negrita */
+    top: 50%; /* Posición verticalmente */
+    left: 50%; /* Posición horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar el texto en el centro */
+    color: white; /* Color texto */
+    font-size: 24px; /* Tamaño texto */
+    font-weight: bold; /* Poner el texto en negrita */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
 }
