@@ -94,9 +94,9 @@ table img{
 
 footer{
     height: 80px;
-    background-color: black;
-    color: white;
-    text-align: center;
+    background-color: black; /* color de fondo */
+    color: white; /* color de letra */
+    text-align: center; /* centrar texto */
     display: grid;
     grid-template-rows: 40%, 1fr;
 }
