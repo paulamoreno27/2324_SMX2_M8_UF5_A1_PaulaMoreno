@@ -80,16 +80,21 @@ table{
     margin: auto;
     text-align: center;
     font-family: "League Spartan", sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 td,th{
-    border: 1px, solid, black;
     font-family: "League Spartan", sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 table img{
     width: 128;
     height: 128px;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 footer{
